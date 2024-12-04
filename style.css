@@ -23,3 +23,8 @@ ul a {
 a {
     text-decoration: none;
 }
+
+.header img {
+    width: 530px;
+    height: 230px;
+}
