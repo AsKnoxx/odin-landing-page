@@ -36,6 +36,7 @@ button {
     border-radius: 10px;
     font-weight: bold;
     font-size: 16px;
+    margin-top: 15px;
 }
 
 li {
@@ -49,6 +50,7 @@ body {
 .header {
     display: flex;
     flex-direction: column;
+    gap: 100px;
 }
 .header .top{
     display: flex;
@@ -60,3 +62,21 @@ ul {
     display: flex;   
     gap: 15px;
 }
+
+.hero-body {
+    display: flex;
+    margin: auto;
+    gap: 50px;
+}
+
+.hero-body .left {
+    flex-direction: column;
+    width: 460px;
+    text-wrap: wrap;
+}
+
+.hero.subtext,
+.hero.maintext {
+    margin: 0;
+}
+
