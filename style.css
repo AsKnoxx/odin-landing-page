@@ -37,3 +37,26 @@ button {
     font-weight: bold;
     font-size: 16px;
 }
+
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+.header .top{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    padding: 15px 0 0 0;
+    display: flex;   
+    gap: 15px;
+}
