@@ -80,3 +80,15 @@ ul {
     margin: 0;
 }
 
+.more-info img {
+    width: 175px;
+    height: 175px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
