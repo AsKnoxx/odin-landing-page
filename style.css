@@ -50,6 +50,7 @@ body {
 .header {
     display: flex;
     flex-direction: column;
+    flex: 1;
     gap: 100px;
 }
 .header .top{
@@ -91,4 +92,27 @@ ul {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    text-align: center;
+}
+
+.more-info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.info-image {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 80px;
+    margin: 40px 0 60px 0;
+}
+
+.info-image div {
+    width: 175px;
+    text-wrap: wrap;
+}
+.more-info p {
+    text-align: center;
 }
