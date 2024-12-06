@@ -115,4 +115,19 @@ ul {
 }
 .more-info p {
     text-align: center;
+    font-size: 18px;
+    color:#6a7283;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quotes {
+    font-size: 36px;
+    color:#1F2937;
+}
+
+.source {
+    font-weight: bolder;
 }
