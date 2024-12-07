@@ -143,13 +143,20 @@ ul {
     margin: 60px 0;
 }
 
-.signup-section div {
+.signup-section .content {
     background-color: #3882F6;
+    display: flex;
+    flex: 1;
+    margin: 60px 150px;
+    padding: 50px 110px;
+    justify-content: space-between;
+    border-radius: 10px;
 }
 
 .signup-section h3,
 .signup-section p {
     color: white;
+    margin: 0;
 }
 
 .signup-section h3 {
@@ -160,4 +167,13 @@ ul {
 .signup-section p {
     font-size: 19px;
     color: rgba(255, 255, 255, 0.877);
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-section button {
+    border-color: #FFFFFF;
 }
