@@ -142,3 +142,22 @@ ul {
     width: 700px;
     margin: 60px 0;
 }
+
+.signup-section div {
+    background-color: #3882F6;
+}
+
+.signup-section h3,
+.signup-section p {
+    color: white;
+}
+
+.signup-section h3 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.signup-section p {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.877);
+}
