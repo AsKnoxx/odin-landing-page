@@ -121,13 +121,24 @@ ul {
 
 .quote-section {
     background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
 
 .quotes {
     font-size: 36px;
     color:#1F2937;
+    margin: 0;
 }
 
 .source {
     font-weight: bolder;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.quote-section div {
+    width: 700px;
+    margin: 60px 0;
 }
